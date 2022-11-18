@@ -17,6 +17,7 @@ header  {
     padding-top: 5px;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 h1  {
     width: 50%;
@@ -48,10 +49,9 @@ li  {
 #main    {
    top: 0;
     position: relative;
-    margin-top: 75px;
+    margin-top: 50px;
     height: 100vh;
     background-color: #101010;
-    z-index: -1;
 }
 .img-container  {
     position: relative;
@@ -92,11 +92,9 @@ section span {
 #btn {
     background: none;
     border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    color: inherit;
+    padding: 5px;
+    font-size: 20px;
+    color: #ff006e;
 }
 #btn:hover  {
     color: #ffbe0b;
