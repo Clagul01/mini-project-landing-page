@@ -3,4 +3,23 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+header  {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+    color: #ffbe0b;
+    font-weight: lighter;
+}
+h1  {
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+span {
+    color: #ff006e;
+    font-weight: bold;
 }
