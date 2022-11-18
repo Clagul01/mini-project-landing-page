@@ -11,10 +11,12 @@ header  {
     display: block;
     background-color: #101010;
     color: #ffbe0b;
+    font-size: 23px;
     font-weight: lighter;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     position: fixed;
+    top: 0;
 }
 h1  {
     width: 50%;
@@ -45,7 +47,7 @@ li  {
 }
 #main    {
    top: 0;
-    position: sitcky;
+    position: relative;
     margin-top: 75px;
     height: 100vh;
     background-color: #101010;
@@ -96,13 +98,22 @@ section span {
     outline: inherit;
     color: inherit;
 }
+#btn:hover  {
+    color: #ffbe0b;
+    transition: ease-in-out 0.5s;
+}
+footer  {
+    position: fixed;
+    background-color: #ffbe0b;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+}
 
 
 li:hover  {
     color: #ff006e ;
     transition: ease-in-out 0.5s;
 }
-#btn:hover  {
-    color: #ffbe0b;
-    transition: ease-in-out 0.5s;
-}
+
