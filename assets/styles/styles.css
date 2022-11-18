@@ -22,7 +22,7 @@ h1  {
     height: 100%;
     display: inline;
 }
-span {
+h1 span {
     color: #ff006e;
     font-weight: bold;
     font-size: larger;
@@ -62,13 +62,38 @@ img {
     width: 100%;
     height: 100%;
 }
-p   {
+p {
     position: absolute;
     top: 20px;
     left: 150px;
     box-shadow: 1px 1px #ffbe0b;
-    }
 }
+.img-container  {
+    margin: 0 auto;
+}
+.form-container {
+    margin: 0 auto;
+    padding: 20px;
+}
+h2  {
+    color: #ffbe0b;
+   display: inline;
+   padding-left: 10px;
+}
+section span {
+    color: #ff006e;
+    padding: 5px;
+    font-weight: bold;
+    display: inline;
+    padding-left: 20px;
+}
+.btn {
+    background: #ffbe0b;
+    border-radius: 28px;
+    color: #101010;
+    padding: 2px 4px 2px 4px;
+    text-decoration: none;
+  }
 
 
 li:hover  {
